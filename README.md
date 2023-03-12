@@ -13,3 +13,4 @@ How to start?
 2.1. change mainnet RPC to your in src/utils/config.ts
 3. yarn start
 
+Project works on https://solist.app
