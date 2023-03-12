@@ -1,0 +1,11 @@
+.swap { max-width:500px; margin:0px auto; }
+
+
+.jup { max-width:500px; margin:0px auto; }
+
+.jup .absolute > .w-full { display:block !important; }
+.jup .absolute > .w-full > * { width:100%; }
+
+.jup .text-right { max-width:70%; }
+.jup input { height:50px !important; padding:0px 0px 0px 16px !important;  }
+

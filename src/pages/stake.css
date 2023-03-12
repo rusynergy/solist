@@ -1,0 +1,77 @@
+.stakes { position:relative;  }
+
+.stakes > .newStakeButton { position: absolute; top:0px; right:0px; }
+
+.stakes > .els { margin-top:48px; }
+.stakes > .els > .e { padding-top:24px; }
+.stakes > .els > .e + .e { margin-top:24px;  border-top:1px solid rgba(255,255,255,0.25); }
+
+.stakes > .els > .e > .one { min-height:48px; width:68%;}
+.stakes > .els > .e > .one > span { float:left; }
+.stakes > .els > .e > .one > .data { margin-left:80px; }
+.stakes > .els > .e > .one > .data > .account { font-weight:bold; padding-top:4px; padding-bottom:4px; }
+.stakes > .els > .e > .one > .data > .delegatedTo { font-size:12px; opacity:0.75; }
+
+.stakes > .els > .e > .stake { width:12%; background:#000; text-align:center; border-radius:12px;  }
+.stakes > .els > .e > .stake:before {content:'no data'; display:block; font-size:12px; opacity:0.75; line-height:20px; padding-top:2px; }
+
+.stakes > .els > .e.active > .stake { background:#00a72d;  }
+.stakes > .els > .e.active > .stake:before {content:'active';  }
+
+.stakes > .els > .e.activating > .stake { background:#a4bd3b;  }
+.stakes > .els > .e.activating > .stake:before {content:'activating';  }
+
+.stakes > .els > .e.deactivating > .stake { background:#d6bf01; color:#000;  }
+.stakes > .els > .e.deactivating > .stake:before {content:'deactivating';  }
+
+.stakes > .els > .e.inactive > .stake { background:#a11522;  }
+.stakes > .els > .e.inactive > .stake:before {content:'inactive';  }
+
+.stakes > .els > .e > .actions { width:20%; text-align:right; }
+
+.ant-drawer-content-wrapper { width:30% !important; min-width:600px; }
+
+.valo > .name { font-weight:bold; }
+.valo > .extra { font-size:12px; padding-top:4px; }
+.valo > .extra > .comm { width:40px; }
+.valo > .extra > .staked { width:100px; }
+.valo > .extra > .location {  }
+.valo > .extra > .location > img { height:12px; display: inline-block; position:relative; top:1px; padding-right:8px; }
+
+@media (max-width:1080px)
+{
+    .stakes > .els > .e > .one { width:100%; padding-bottom:16px;  }
+    .stakes > .els > .e > .stake { margin-left:80px; width: 120px; }
+    .stakes > .els > .e > .actions { width:auto; text-align:left; margin-left:32px; }
+}
+
+@media (max-width:666px)
+{
+    .stakes > .els > .e > .one > .data,
+    .stakes > .els > .e > .stake  { margin-left:0px; }
+    .stakes > .els > .e > .one > span { float:none; }
+    .stakes > .els > .e > .one > .data { margin-top:8px; }
+    .ant-drawer-content-wrapper { width:100% !important; min-width:320px; }
+}
+
+@media (max-width:501px)
+{
+    .stakes > .els > .e > .one > .data > .account { font-size:12px; }
+    .stakes > .els > .e > .actions { margin-left:0px; }
+    .stakes > .els > .e { position:relative; }
+    .stakes > .els > .e > .stake { position: absolute; top:24px; right:0px; padding-bottom:4px; }
+
+}
+
+@media (max-width:400px)
+{
+    .stakes > .els > .e > .one > .data > .account { font-size:9px; }
+    .stakes > .els > .e > .one > .data > .delegatedTo { font-size:9px; }
+
+}
+
+@media (max-width:360px)
+{
+    .stakes > .els .ant-btn { padding:4px 12px; height:40px; }
+    .stakes > .newStakeButton { position: static; top:0px; right:0px; width:100%; }
+}

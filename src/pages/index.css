@@ -1,0 +1,12 @@
+.main { margin-top:32px; }
+.main > a { text-decoration: none; outline: none medium; width:32%; border:1px solid rgba(255,255,255,0.25); display: block; border-radius:12px; transition: all 250ms; padding:24px 24px 0px 24px; }
+.main > a > .anticon { font-size:48px; opacity:0.75; transition: all 250ms;}
+.main > a > .more > p { padding:0px;  }
+.main > a:hover { border-color: #512da8}
+.main > a:hover > .anticon { color: #512da8; opacity:1.0;}
+
+@media (max-width:767px)
+{
+    .main > a { width:100%; }
+    .main > a + a { margin-top:16px; }
+}

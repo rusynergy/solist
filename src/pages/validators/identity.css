@@ -1,0 +1,60 @@
+.oneValidator > .head { margin:24px 0px; min-height:60px; }
+.oneValidator > .head > .ant-avatar { float:left; }
+.oneValidator > .head > .info { margin-left:80px; }
+.oneValidator > .head > .info > .desc { opacity:0.75; padding-bottom:16px; }
+.oneValidator > .head > .info > .keys > * + * { margin-top:4px; }
+.oneValidator > .head > .info > .social { margin-top:16px; font-size:24px; }
+.oneValidator > .head > .info > .social > * + *  { margin-left:16px; transition: all 250ms; }
+.oneValidator > .head > .info > .social > *:hover, .oneValidator > .head > .info > .social > *:focus { color:#512da8; }
+
+.oneValidator > .head > .stake { float:right; border:1px solid #512da8; border-radius:12px; padding:24px; }
+.oneValidator > .head > .stake > .active { font-size:18px; }
+.oneValidator > .head > .stake > .commission { font-size:12px; opacity:0.75; padding-top:4px; text-align:center;  }
+
+.oneValidator > .location { margin-top:32px;border-radius:12px; border:1px solid rgba(255,255,255,0.2);  }
+.oneValidator > .location > div { width:33.3%; padding:24px; line-height:1.25em;}
+.oneValidator > .location > .dc > .ip { font-size:18px; padding-bottom:4px; }
+.oneValidator > .location > .dc > .isp { font-size:12px; opacity:0.75; }
+.oneValidator > .location > .dc > .as { font-size:12px; opacity:0.75; }
+
+.oneValidator > .location > .geo {  text-align:center; }
+.oneValidator > .location > .geo > .country { font-size:18px; padding-bottom:4px; }
+.oneValidator > .location > .geo > .country > img { height:18px; border-radius:2px; }
+.oneValidator > .location > .geo > .extra {  font-size:12px; opacity:0.75; }
+
+.oneValidator > .location > .extra { text-align:right; }
+.oneValidator > .location > .extra > .version { font-size:18px; padding-bottom:4px; }
+.oneValidator > .location > .extra > .rpc { font-size:12px; opacity:0.75; }
+
+.oneValidator > .location > .title { font-size:24px; width:100%;  opacity:0.75; }
+.oneValidator > .location > .title > span { border-bottom:2px solid #512da8; }
+
+@media (max-width:1000px)
+{
+    .oneValidator > .head > .stake { padding:16px 24px; position: relative; top:-16px; }
+}
+
+@media (max-width:767px)
+{
+    .oneValidator > .head > .info { font-size:12px; }
+    .oneValidator > .head > .stake { padding:16px 0px 0px 16px; border:0px none; top:-24px; }
+
+    .oneValidator > .location { border-width:1px 0px 1px 0px; border-radius:0px; padding:8px 0px 16px 0px; }
+    .oneValidator > .location > div { padding:16px 0px; width:100%; text-align:left !important; }
+}
+
+
+
+@media (max-width:500px)
+{
+    .oneValidator > .head > .ant-avatar { float:none; }
+    .oneValidator > .head > .info { margin-left:0px; }
+    .oneValidator > .head > .stake { top:-8px; }
+    .oneValidator > .head > .info > .keys > * { line-height:1.5em; }
+}
+
+@media (max-width:400px)
+{
+
+    .oneValidator > .head > .info > .keys > * { font-size:10px; }
+}

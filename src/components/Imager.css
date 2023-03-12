@@ -1,0 +1,5 @@
+.imager.loading {  position: relative;   height:269px; background:#101322; }
+.imager.loading > img {   opacity:0; }
+
+.imager {    border-radius:12px; transition: all 250ms; }
+.imager > img {   transition: all 250ms; max-width:100%; }

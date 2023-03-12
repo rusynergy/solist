@@ -1,0 +1,46 @@
+{
+  "private": true,
+  "author": "",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "config": "umi config",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@coral-xyz/borsh": "^0.26.0",
+    "@jup-ag/core": "4.0.0-beta.13",
+    "@metaplex-foundation/js": "^0.17.12",
+    "@mui/material": "^5.11.2",
+    "@nfteyez/sol-rayz-react": "^0.10.2",
+    "@solana/wallet-adapter-ant-design": "^0.11.24",
+    "@solana/wallet-adapter-base": "0.9.22",
+    "@solana/wallet-adapter-material-ui": "^0.16.25",
+    "@solana/wallet-adapter-react": "0.15.30",
+    "@solana/wallet-adapter-react-ui": "0.9.29",
+    "@solana/wallet-adapter-walletconnect": "0.1.14",
+    "@solana/wallet-adapter-wallets": "0.19.15",
+    "@solana/wallet-standard-wallet-adapter-base": "^1.0.1",
+    "@solana/wallet-standard-wallet-adapter-react": "^1.0.1",
+    "@solana/web3.js": "^1.72.0",
+    "@umijs/plugins": "^4.0.41",
+    "antd": "5.2.3",
+    "axios": "^1.2.2",
+    "babel-plugin-dynamic-import-node": "^2.3.3",
+    "lodash": "^4.17.21",
+    "mkcert": "^1.5.1",
+    "notistack": "^2.0.8",
+    "path-to-regexp": "^6.2.1",
+    "qs": "^6.11.0",
+    "react": "18.2.0",
+    "react-copy-to-clipboard": "^5.1.0",
+    "umi": "4.0.53"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^4.1.2"
+  }
+}

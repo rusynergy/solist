@@ -1,0 +1,36 @@
+header { padding: 20px 12px; width: 100%; line-height:48px;  position:relative; }
+
+header > .left > a > img { height:48px; }
+header > .left > .menu {  margin-left:20px;  }
+header > .left > .menu > a { font-size:16px; font-weight:500; text-decoration: none; transition: all 250ms;  line-height:40px; padding:0px 20px; border-radius:12px; color:rgb(152, 161, 192); display:inline-block; }
+header > .left > .menu > a + a { margin-left:8px; }
+
+header > .left > .menu > a:hover, header > .left > .menu > a:focus { color:#fff; background:rgba(255,255,255,0.1); }
+
+header > .wallet > * + * { margin-left:16px; }
+header > .wallet > .ant-spin {  line-height:48px; }
+
+@media (max-width:600px)
+{
+    header > .left > a { margin-left:16px; }
+    header > .left > .menu { margin-left:0px; width:100%;}
+    header > .wallet { margin-left:20px; font-size:14px; margin-top:16px; }
+    header > .wallet > .selectNetwork + div { position: absolute; top:20px; right:20px; }
+}
+
+@media (max-width:400px)
+{
+    header > .left > .menu > a { padding:0px 16px; font-size:14px; }
+
+}
+
+
+@media (max-width:350px)
+{
+   header > .wallet > .selectNetwork { margin-left:0px; }
+   header > .wallet > .selectNetwork > .ant-select { width:120px !important;  }
+   header > .wallet > .selectNetwork > .ant-select * { font-size:12px !important; }
+   header > .wallet { display:block; width:100%; }
+   header > .wallet > .balance { float:right; padding-right:8px; }
+
+}

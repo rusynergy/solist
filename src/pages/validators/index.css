@@ -1,0 +1,19 @@
+.validators .node > .name { font-weight:600; }
+.validators .node > .pubkey { font-size:12px; opacity:0.75; }
+.validators .node > .vote { font-size:12px; opacity:0.75; }
+.validators .location > .ip { font-weight:bold; }
+.validators .location > .geo > img { height:12px; border-radius:2px; position:relative; margin-right:6px; top:1px; }
+.validators .location > .geo { opacity:0.75; font-size:12px; }
+.validators .stake > .commission { opacity:0.75; font-size:12px; }
+.validators th { cursor: pointer; user-select: none; }
+.validators tr { cursor: pointer; }
+.validators tr > td:last-child { text-transform: capitalize; text-align:center;  }
+.validators tr.active > td:last-child { color:#a0d911; }
+.validators tr.delinquent > td:last-child { color:#f5222d }
+.validators > .search { margin-bottom:24px; }
+
+@media (max-width:981px)
+{
+
+    .validators .ant-table { overflow-x:auto; }
+}

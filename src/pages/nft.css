@@ -1,0 +1,23 @@
+
+
+.nfts { }
+.nfts > .els { margin:0px -16px; }
+.nfts > .els > .ant-empty {  width:100%; }
+
+.nfts > .els > .e { width:25%; padding:16px; }
+.nfts > .els > .e > .image { border-radius:12px; overflow:hidden; }
+.nfts > .els > .e > .image > img { max-width:100%; display: block; }
+.nfts > .els > .e > .name { padding:12px; }
+
+.mint > .a { font-size:12px; opacity:0.75; line-height:48px; padding-left:16px; }
+
+@media (max-width:767px)
+{
+    .nfts > .els > .e { width:33.3%; }
+    .nfts > .els > .e > .name { font-size:12px; }
+}
+
+@media (max-width:500px)
+{
+    .nfts > .els > .e { width:50%; }
+}
