@@ -20,9 +20,9 @@ const NFTpage = () => {
     const { publicKey } = useWallet();
     const wallet = useWallet();
     const { address, network, nfts, nftsLoading, getNfts, mintLoading, mintNFT, candyLoading, getCandyMachine, candy } = useModel('networkModel');
-   // const [ nfts, setNfts ] = useState([]); // pre
+    // const [ nfts, setNfts ] = useState([]); // pre
     // [ els, setEls ] = useState([]);    // finished
-  //  const [ nftsLoading, setNftsLoading] = useState({});
+    //  const [ nftsLoading, setNftsLoading] = useState({});
 
     useEffect(() => {
         if (!address)

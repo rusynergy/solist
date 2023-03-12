@@ -11,7 +11,7 @@ module.exports = {
     dva: {},
     networkData: {
         mainnet: {
-            rpc: 'https://proud-intensive-pine.solana-mainnet.discover.quiknode.pro/74346c4c78b0303291ca6d81f5bb3ab1a4f9109c/',
+            rpc: 'https://proud-intensive-pine.solana-mainnet.discover.quiknode.pro/74346c4c78b0303291ca6d81f5bb3ab1a4f9109c/',    
             name: 'Mainnet Beta',
             explorerTransaction: 'https://solscan.io/tx/{id}',
             explorerAccount: 'https://solscan.io/account/{id}',
